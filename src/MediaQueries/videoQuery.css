@@ -1,0 +1,26 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .video__info>.avatar{
+     
+        width:4rem;
+        height:4rem;
+    }
+
+    .video__card>img{
+        width:20em;
+        height:20em;
+        object-fit: contain;
+        margin-bottom:0;
+        padding-bottom: 0;
+    }
+    .video__card{
+        display: flex;
+        flex-direction: column;
+        margin:0.5rem;
+        cursor: pointer;
+        
+    }
+
+}

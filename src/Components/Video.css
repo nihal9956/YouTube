@@ -1,0 +1,46 @@
+.video__card{
+    display: flex;
+    flex-direction: column;
+    margin:0 0.8rem;
+    cursor: pointer;
+    
+}
+.video__card>img{
+    width:22.5em;
+    height:22.5em;
+    object-fit: contain;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+.video__info{
+    display:flex;
+    align-items: center;
+    margin-top:-4rem;
+}
+.video__info>h2{
+    margin-left: 1rem;
+    max-width:15rem;
+    font-weight:500;
+    font-size:1.3rem;
+}
+
+.video__channel>h3{
+    display: block;
+    margin-left: 5rem;
+    color:#606060;
+    font-weight:400;
+    font-size:1.3rem;
+}
+.video__detailes{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top:0.5rem;
+    
+}
+.video__detailes>p{
+    color:#606060;
+    font-weight:300;
+    font-size:1.3rem;
+    margin-right:0.5rem;
+}

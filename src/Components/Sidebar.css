@@ -1,0 +1,96 @@
+.sidebar{
+   flex:0.20;
+    height:100vh;
+    background-color:#252525;
+    display: flex;
+    flex-direction: column;
+    padding-top:2rem;
+    
+    overflow:hidden;
+    position: sticky;
+    top:0;
+}
+.sidebar:hover{
+    overflow-y:overlay;
+}
+.sidebar::-webkit-scrollbar{
+    height:0.2rem;
+    width: 0.5rem;
+  }
+
+  .sidebar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    min-height: 10px;
+    
+  }
+.sidebar__row{
+display: flex;
+align-items: center;
+padding:0.8rem 2.5rem;
+
+}
+.sidebar__row.active{
+    background-color:#7575755b;
+    padding-bottom:0.8rem;
+
+}
+.sidebar__row.active>h2{
+    color: white;
+    font-weight:500;
+}
+.sidebar__row.active>.MuiSvgIcon-root{
+    color: #FF0000;
+    cursor: pointer;
+}
+.sidebar__row:hover{
+    background-color:#9291915b;
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+    
+   
+}
+.sidebar__row:hover>h2{
+    color: white;
+    transition:color 0.2s ease-in;
+}
+.sidebar__row:hover>.MuiSvgIcon-root{
+    color:#FF0000;
+    transition:color 0.2s ease-in;
+    cursor: pointer;
+}
+
+.sidebar__row>h2{
+    color:#727272;
+
+}
+
+.sidebar__row>.MuiSvgIcon-root
+{
+    color: white;
+    font-size:2rem;
+    margin-right:2rem;
+    cursor: pointer;
+
+}
+
+.divider{
+    border-top:0.2px solid rgb(68, 67, 67);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding:1rem;
+}
+
+.Collapse{
+    
+    transform: translateX(-25rem);
+    transition:transform 0.5s ease-in-out;
+    flex:0;
+    transition:flex 0.5s ease-out
+    
+}
+
+.home-link{
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.body{
+
+    flex:0.80;
+    background-color:#F9F9F9;
+    display: flex;
+    flex-wrap:wrap;
+    width:100vw;
+    margin-bottom:2rem;
+    background-size: cover;
+}
+.expand__body{
+flex:1;
+
+}

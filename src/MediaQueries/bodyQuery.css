@@ -1,0 +1,13 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .body{
+        flex:0.92;
+        overflow-y: scroll;
+    }
+    .expand__body{
+        flex:1;
+        
+        }
+}

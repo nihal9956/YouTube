@@ -1,0 +1,24 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .sidebar{
+        flex:0.1;
+    }
+  
+    .sidebar__row{
+        flex-direction: column;
+        padding:0.8rem 2.5rem;
+        
+        }
+        .sidebar__row>h2{font-size:0rem;}
+        .sidebar__row>.MuiSvgIcon-root{margin-right:0rem;}
+        .Collapse{
+    
+            transform: translateX(-25rem);
+            transition:transform 0.5s ease-in-out;
+            flex:0;
+            transition:flex 0.5s ease-out
+            
+        }
+}
